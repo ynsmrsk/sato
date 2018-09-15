@@ -1,0 +1,105 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background-image: url(uzi.png);
+	margin: 0px;
+	padding: 0px;
+}
+
+.hepsi{
+	display: inline-flex;
+	width: 50px;
+	height: 50px;
+	padding-left: 1px;
+	padding-right: 2px;
+	margin-top: -2px;
+}
+
+.content{
+	position: absolute;
+	left: 1%;
+	top: 14%;
+	width: 1100px;
+	height: 600px;
+}
+
+p.sayi-yan{
+	display: inline;
+	word-spacing: 40px;
+	margin-left: 60px;
+	color: aqua;
+	
+}
+span.sayi-alt{
+	color: aqua;
+}
+img{
+	cursor: pointer;
+}
+
+.footer{
+	position: relative;
+	bottom: -860px;  /*tablodan uzaklık*/
+	width: 100%;
+	background-color: greenyellow;
+	height: 100px;
+}
+
+.first{
+	position: absolute;
+	left: 12%;
+	top: 3px;
+	width: 100px;
+	height: 100px;
+	background-image: url(tubytaklogo.png);
+	background-size: 100% 100%;
+
+}
+
+.second a{
+	position: absolute;
+	left: 34%;
+	top: 45px;
+	color: rgb(45, 45, 45);
+	font-size: 20px;
+	
+}
+
+.second a:hover{
+	color: black;
+}
+
+.second a:link {text-decoration: none;}
+.second a:visited {text-decoration: none;}
+.second a:hover {text-decoration: none;}
+.second a:active {text-decoration: none;}
+
+.third{
+	position: absolute;
+    left: 75%;
+	top: 15px;
+	color: rgb(45, 45, 45);
+	font-size: 17px;
+	cursor: default;
+}
+
+p.baslik{
+	color: greenyellow;
+	position: absolute;
+	top: -30px;
+	left: 17%;
+    font-size: 50px;
+
+}
+
+.renkbilgi1{
+	position: absolute;
+	top: 205px;
+	left: 172px;
+    width: auto;
+}
+.renkbilgi2{
+	position: absolute;
+	top: 205px;
+	left: 445px;
+    width: auto;
+}
